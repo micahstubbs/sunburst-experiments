@@ -150,8 +150,8 @@ d3.json(
       .attr('xlink:href', (_, i) => `#hiddenArc${i}`)
       .text(d => d.data.name)
       .style('fill', 'none')
-      .style('stroke', '#fff')
-      .style('stroke-width', 5)
+      .style('stroke', '#E5E2E0')
+      .style('stroke-width', 12)
       .style('stroke-linejoin', 'round');
 
     text
